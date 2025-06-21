@@ -18,3 +18,5 @@ def update_product_view(request):
     notify_product_update.delay(product_id)  # Send task to RabbitMQ via Celery
     return JsonResponse({"status": "Task sent"})
 
+# daphne -p 8000 envdjango.asgi:application
+# daphne -p 8000 envdjango.asgi:application
