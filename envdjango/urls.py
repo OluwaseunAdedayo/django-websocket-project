@@ -5,6 +5,6 @@ from product.routes.test import test
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('product.urls')),  # <-- This includes routes from product
+    path('', include('product.urls')),  
     path('test/',test.as_view(),name="test")
 ]

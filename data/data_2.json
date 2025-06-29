@@ -1,0 +1,482 @@
+{
+    "status": "success",
+    "data": {
+        "id": 3,
+        "url": "https://4imi.com",
+        "traffic_data": null,
+        "performance_metrics": {
+            "desktop": {
+                "error": null,
+                "performanceMetrics": {
+                    "First Contentful Paint": "979.24 ms",
+                    "Fully Loaded Time": "1057.49 ms",
+                    "Time to Interactive": "1357.49 ms",
+                    "Total Blocking Time": "N/A",
+                    "Cumulative Layout Shift": 0.61999999999999999555910790149937383830547332763671875,
+                    "Largest Contentful Paint": "1079.24 ms",
+                    "Onload Time": "1057.49 ms",
+                    "Redirect Time": "N/A",
+                    "Server Response Time": "879.24 ms",
+                    "TTFB (Time To First Byte)": "879.24 ms",
+                    "Main Thread Work": "N/A"
+                },
+                "seoMetrics": {
+                    "Mobile Friendly": "Yes",
+                    "Structured Data": "Present",
+                    "Meta Description": "Present",
+                    "Title Tags": "Optimized",
+                    "Alt Text": "Missing",
+                    "Mobile Usability": "Good",
+                    "SEO-Friendly URL": "Yes"
+                },
+                "structuredMetrics": [
+                    {
+                        "priority": "High",
+                        "name": "Reduce initial server response time",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "Root document took 0.9s",
+                        "details": "Keep the server response time for the main document short because all other requests depend on it. Consider optimizing server performance or using a CDN."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Avoid chaining critical requests",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "47 chains found",
+                        "details": "Reduce the number of critical resources (scripts and stylesheets) to improve page load time."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Use a Content Delivery Network (CDN)",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "47 resources found",
+                        "details": "Using a CDN can reduce latency by serving content from servers closer to the user."
+                    },
+                    {
+                        "priority": "Low",
+                        "name": "Avoid large layout shifts",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "3 layout shifts found",
+                        "details": "Ensure elements have defined sizes to prevent unexpected layout shifts during page load."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Use explicit width and height on image elements",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "21 images found",
+                        "details": "Specify width and height attributes on images to reserve space and prevent layout shifts."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Serve static assets with an efficient cache policy",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 20 KB",
+                        "details": "Set proper Cache-Control or Expires headers for static assets to improve load times."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Avoid long main-thread tasks",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "12 long tasks found",
+                        "details": "Optimize JavaScript execution to reduce main-thread blocking time."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Properly size images",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 125KB",
+                        "details": "Ensure images are appropriately sized for their display dimensions."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Reduce unused JavaScript",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 370KB",
+                        "details": "Remove or defer unused JavaScript to improve performance."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Reduce unused CSS",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 50KB",
+                        "details": "Remove unused CSS rules to reduce page load time."
+                    }
+                ],
+                "screenshot": null,
+                "score": 70
+            },
+            "mobile": {
+                "error": null,
+                "performanceMetrics": {
+                    "First Contentful Paint": "1502.11 ms",
+                    "Fully Loaded Time": "1465.11 ms",
+                    "Time to Interactive": "1765.11 ms",
+                    "Total Blocking Time": "N/A",
+                    "Cumulative Layout Shift": 0.61999999999999999555910790149937383830547332763671875,
+                    "Largest Contentful Paint": "1602.11 ms",
+                    "Onload Time": "1465.11 ms",
+                    "Redirect Time": "N/A",
+                    "Server Response Time": "1402.11 ms",
+                    "TTFB (Time To First Byte)": "1402.11 ms",
+                    "Main Thread Work": "N/A"
+                },
+                "seoMetrics": {
+                    "Mobile Friendly": "Yes",
+                    "Structured Data": "Present",
+                    "Meta Description": "Present",
+                    "Title Tags": "Optimized",
+                    "Alt Text": "Missing",
+                    "Mobile Usability": "Good",
+                    "SEO-Friendly URL": "Yes"
+                },
+                "structuredMetrics": [
+                    {
+                        "priority": "High",
+                        "name": "Reduce initial server response time",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "Root document took 1.4s",
+                        "details": "Keep the server response time for the main document short because all other requests depend on it. Consider optimizing server performance or using a CDN."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Avoid chaining critical requests",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "47 chains found",
+                        "details": "Reduce the number of critical resources (scripts and stylesheets) to improve page load time."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Use a Content Delivery Network (CDN)",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "47 resources found",
+                        "details": "Using a CDN can reduce latency by serving content from servers closer to the user."
+                    },
+                    {
+                        "priority": "Low",
+                        "name": "Avoid large layout shifts",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "3 layout shifts found",
+                        "details": "Ensure elements have defined sizes to prevent unexpected layout shifts during page load."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Use explicit width and height on image elements",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "21 images found",
+                        "details": "Specify width and height attributes on images to reserve space and prevent layout shifts."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Serve static assets with an efficient cache policy",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 20 KB",
+                        "details": "Set proper Cache-Control or Expires headers for static assets to improve load times."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Avoid long main-thread tasks",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "12 long tasks found",
+                        "details": "Optimize JavaScript execution to reduce main-thread blocking time."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Properly size images",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 125KB",
+                        "details": "Ensure images are appropriately sized for their display dimensions."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Reduce unused JavaScript",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 370KB",
+                        "details": "Remove or defer unused JavaScript to improve performance."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Reduce unused CSS",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 50KB",
+                        "details": "Remove unused CSS rules to reduce page load time."
+                    }
+                ],
+                "screenshot": null,
+                "score": 70
+            },
+            "countries": [
+                {
+                    "flag": "🇺🇸",
+                    "name": "USA",
+                    "score": 80,
+                    "ttfb": "1127.8 ms",
+                    "grade": "B"
+                },
+                {
+                    "flag": "🇨🇦",
+                    "name": "Canada",
+                    "score": 80,
+                    "ttfb": "909.81 ms",
+                    "grade": "B"
+                },
+                {
+                    "flag": "🇫🇷",
+                    "name": "France",
+                    "score": 80,
+                    "ttfb": "1113.44 ms",
+                    "grade": "B"
+                }
+            ]
+        },
+        "seo_performance": {
+            "headers": [],
+            "original": {
+                "success": true,
+                "data": {
+                    "url": "https://4imi.com",
+                    "seo_score": 75,
+                    "grade": "C",
+                    "passed": 6,
+                    "failed": 2,
+                    "warning": 1,
+                    "title": "Website Design Experts & SEO Specialist | Dallas, TX | IMI",
+                    "title_length": 58,
+                    "meta_description": "About IMI IMI – Marketing with a Personal Touch IMI is not a one size fits all marketing company. We work within your budget to make digital marketing work for you. We are experts in the multifaceted world of internet marketing from award winning web design and search engine optimization to social media and online",
+                    "meta_description_length": 317,
+                    "social_media_meta": [],
+                    "keywords": [
+                        {
+                            "keyword": "marketing",
+                            "title": false,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 11
+                        },
+                        {
+                            "keyword": "arketing",
+                            "title": false,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 8
+                        },
+                        {
+                            "keyword": "business",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 8
+                        },
+                        {
+                            "keyword": "esign",
+                            "title": true,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 7
+                        },
+                        {
+                            "keyword": "online",
+                            "title": false,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 7
+                        },
+                        {
+                            "keyword": "digital marketing",
+                            "title": false,
+                            "meta_description": true,
+                            "headings": false,
+                            "frequency": 3
+                        },
+                        {
+                            "keyword": "search engine",
+                            "title": false,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 3
+                        },
+                        {
+                            "keyword": "engine optimization",
+                            "title": false,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 3
+                        },
+                        {
+                            "keyword": "ocial edia",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 3
+                        },
+                        {
+                            "keyword": "eputation epair",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 3
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "tag": "h2",
+                            "content": "24"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Get a FREE SEO website analysis report online 24/7"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "MARKETING STRATEGY"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "GOVERNMENT PROJECTS"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "WEB DESIGN SERVICES"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "SEARCH ENGINE OPTIMIZATION"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "SOCIAL MEDIA MARKETING"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "LEAD GENERATION"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "3D RENEDERING"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "REPUTATION REPAIR"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "POSITIVE REVIEWS"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Need Web Design, SEO solution, or a Marketing Strategy?"
+                        }
+                    ],
+                    "image_alt_missing": [
+                        "//www.4imi.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+                        "https://www.4imi.com/wp-content/uploads/2020/06/aboutus.jpg",
+                        "https://www.4imi.com/wp-content/uploads/2020/08/holtmccallany.jpg",
+                        "https://www.4imi.com/wp-content/uploads/2020/08/bbrss.jpg",
+                        "https://www.4imi.com/wp-content/uploads/2020/08/dbmsinc.jpg",
+                        "https://www.4imi.com/wp-content/uploads/2020/08/hmconstruction.jpg",
+                        "https://www.4imi.com/wp-content/uploads/2020/08/screenqueens.jpg",
+                        "https://www.4imi.com/wp-content/uploads/2020/08/sporttryouts.jpg",
+                        "https://www.4imi.com/wp-content/uploads/2020/08/startareview.jpg",
+                        "https://www.4imi.com/wp-content/uploads/2020/08/texascattletrader.jpg",
+                        "https://www.4imi.com/wp-content/uploads/2020/08/writemyestimate.jpg",
+                        "/wp-content/uploads/2020/06/internet_marketing_images_logo-1.png",
+                        "/wp-content/uploads/2020/09/image001.png",
+                        "/wp-content/uploads/2021/02/top-best-sites-2021-1.jpg",
+                        "https://www.4imi.com/wp-content/uploads/2022/03/gsa-logo-ftr.png"
+                    ],
+                    "robots_txt": "https://4imi.com/robots.txt",
+                    "sitemap": "https://4imi.com/sitemap.xml",
+                    "indexed_pages": {
+                        "count": 0,
+                        "links": []
+                    },
+                    "non_indexed_pages": {
+                        "count": 0,
+                        "links": []
+                    },
+                    "http_status": 200,
+                    "noindex_tag": false,
+                    "canonical_urls": [
+                        "https://www.4imi.com/"
+                    ],
+                    "issues": [
+                        {
+                            "title": "Meta Description Issue",
+                            "description": "Ensure the meta description is between 50 and 160 characters."
+                        },
+                        {
+                            "title": "Images Missing Alt Text",
+                            "description": "Add alt attributes to all images."
+                        }
+                    ]
+                }
+            },
+            "exception": null
+        },
+        "indexing_performance": null,
+        "social_data": null,
+        "backlink_data": null,
+        "meta_tags": null,
+        "domain_info": null,
+        "dns_records": null,
+        "ssl_details": null,
+        "whois_data": null,
+        "sitemap_exists": null,
+        "performance_data": null,
+        "sitemap_analysis": null,
+        "crawl_data": null,
+        "search_ranking": null,
+        "local_search_data": null,
+        "blacklist_check": null,
+        "schema_data": null,
+        "keywords": null,
+        "created_at": "2025-06-13T10:53:07.000000Z",
+        "updated_at": "2025-06-13T10:53:07.000000Z"
+    }
+}

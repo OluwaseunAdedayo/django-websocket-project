@@ -1,0 +1,347 @@
+{
+    "status": "success",
+    "data": {
+        "performance_metrics": {
+            "desktop": {
+                "error": null,
+                "performanceMetrics": {
+                    "First Contentful Paint": "434 ms",
+                    "Fully Loaded Time": "446.17 ms",
+                    "Time to Interactive": "746.17 ms",
+                    "Total Blocking Time": "N/A",
+                    "Cumulative Layout Shift": 0.79000000000000003552713678800500929355621337890625,
+                    "Largest Contentful Paint": "534 ms",
+                    "Onload Time": "446.17 ms",
+                    "Redirect Time": "N/A",
+                    "Server Response Time": "334 ms",
+                    "TTFB (Time To First Byte)": "334 ms",
+                    "Main Thread Work": "N/A"
+                },
+                "seoMetrics": {
+                    "Mobile Friendly": "Yes",
+                    "Structured Data": "Present",
+                    "Meta Description": "Present",
+                    "Title Tags": "Optimized",
+                    "Alt Text": "Missing",
+                    "Mobile Usability": "Good",
+                    "SEO-Friendly URL": "Yes"
+                },
+                "structuredMetrics": [
+                    {
+                        "priority": "High",
+                        "name": "Reduce initial server response time",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "Root document took 0.3s",
+                        "details": "Keep the server response time for the main document short because all other requests depend on it. Consider optimizing server performance or using a CDN."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Avoid chaining critical requests",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "70 chains found",
+                        "details": "Reduce the number of critical resources (scripts and stylesheets) to improve page load time."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Use a Content Delivery Network (CDN)",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "70 resources found",
+                        "details": "Using a CDN can reduce latency by serving content from servers closer to the user."
+                    },
+                    {
+                        "priority": "Low",
+                        "name": "Avoid large layout shifts",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "2 layout shifts found",
+                        "details": "Ensure elements have defined sizes to prevent unexpected layout shifts during page load."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Use explicit width and height on image elements",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "3 images found",
+                        "details": "Specify width and height attributes on images to reserve space and prevent layout shifts."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Serve static assets with an efficient cache policy",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 20 KB",
+                        "details": "Set proper Cache-Control or Expires headers for static assets to improve load times."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Avoid long main-thread tasks",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "20 long tasks found",
+                        "details": "Optimize JavaScript execution to reduce main-thread blocking time."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Properly size images",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 90KB",
+                        "details": "Ensure images are appropriately sized for their display dimensions."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Reduce unused JavaScript",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 610KB",
+                        "details": "Remove or defer unused JavaScript to improve performance."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Reduce unused CSS",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 45KB",
+                        "details": "Remove unused CSS rules to reduce page load time."
+                    }
+                ],
+                "screenshot": null,
+                "score": 70
+            },
+            "mobile": {
+                "error": "HTTP Error 0",
+                "status": 0,
+                "performanceMetrics": {
+                    "First Contentful Paint": "N/A",
+                    "Fully Loaded Time": "N/A",
+                    "Time to Interactive": "N/A",
+                    "Total Blocking Time": "N/A",
+                    "Cumulative Layout Shift": "N/A",
+                    "Largest Contentful Paint": "N/A",
+                    "Onload Time": "N/A",
+                    "Redirect Time": "N/A",
+                    "Server Response Time": "N/A",
+                    "TTFB (Time To First Byte)": "N/A",
+                    "Main Thread Work": "N/A"
+                },
+                "seoMetrics": {
+                    "Mobile Friendly": "No",
+                    "Structured Data": "Missing",
+                    "Meta Description": "Missing",
+                    "Title Tags": "Missing",
+                    "Alt Text": "Missing",
+                    "Mobile Usability": "Poor",
+                    "SEO-Friendly URL": "No"
+                },
+                "structuredMetrics": [],
+                "screenshot": null,
+                "score": 0
+            },
+            "countries": [
+                {
+                    "flag": "🇺🇸",
+                    "name": "USA",
+                    "score": 80,
+                    "ttfb": "264.99 ms",
+                    "grade": "B"
+                },
+                {
+                    "flag": "🇨🇦",
+                    "name": "Canada",
+                    "score": 100,
+                    "ttfb": "133.36 ms",
+                    "grade": "A"
+                },
+                {
+                    "flag": "🇫🇷",
+                    "name": "France",
+                    "score": 80,
+                    "ttfb": "277.71 ms",
+                    "grade": "B"
+                }
+            ]
+        },
+        "seo_performance": {
+            "headers": {},
+            "original": {
+                "success": true,
+                "data": {
+                    "url": "https://bellacraftrenovation.com",
+                    "seo_score": 75,
+                    "grade": "C",
+                    "passed": 6,
+                    "failed": 2,
+                    "warning": 1,
+                    "title": "General Contractor Livonia | BellaCraft Renovation",
+                    "title_length": 50,
+                    "meta_description": "BellaCraft Renovation provides top-quality Home Remodeling, Home Renovation, Kitchen Remodeling and General Contractor services. Call us today at 734-578-2107!!!",
+                    "meta_description_length": 161,
+                    "social_media_meta": {
+                        "og:title": "General Contractor Livonia | BellaCraft Renovation",
+                        "og:description": "BellaCraft Renovation provides top-quality Home Remodeling, Home Renovation, Kitchen Remodeling and General Contractor services. Call us today at 734-578-2107!!!",
+                        "og:url": "https://bellacraftrenovation.com/",
+                        "twitter:title": "General Contractor Livonia | BellaCraft Renovation",
+                        "twitter:description": "BellaCraft Renovation provides top-quality Home Remodeling, Home Renovation, Kitchen Remodeling and General Contractor services. Call us today at 734-578-2107!!!"
+                    },
+                    "keywords": [
+                        {
+                            "keyword": "ome",
+                            "title": false,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 22
+                        },
+                        {
+                            "keyword": "emodeling",
+                            "title": false,
+                            "meta_description": true,
+                            "headings": false,
+                            "frequency": 21
+                        },
+                        {
+                            "keyword": "ellaraft",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 19
+                        },
+                        {
+                            "keyword": "enovation",
+                            "title": true,
+                            "meta_description": true,
+                            "headings": false,
+                            "frequency": 18
+                        },
+                        {
+                            "keyword": "home",
+                            "title": false,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 13
+                        },
+                        {
+                            "keyword": "ellaraft enovation",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 14
+                        },
+                        {
+                            "keyword": "eneral ontractor",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 8
+                        },
+                        {
+                            "keyword": "ome emodeling",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 7
+                        },
+                        {
+                            "keyword": "itchen emodeling",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 7
+                        },
+                        {
+                            "keyword": "emodeling ivonia",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 6
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "tag": "h1",
+                            "content": "Our Services"
+                        },
+                        {
+                            "tag": "h1",
+                            "content": "UPGRADE YOUR HOME WITH AN INTERIOR REMODEL"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Contact Us Right away to Set up a Consultation"
+                        },
+                        {
+                            "tag": "h1",
+                            "content": "Customize your Home - We Shape Your Homes"
+                        },
+                        {
+                            "tag": "h1",
+                            "content": "BellaCraft Testimonials"
+                        }
+                    ],
+                    "image_alt_missing": [
+                        "data:image/svg+xml;nitro-empty-id=MTM4Mjo1ODk=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjMwIDU0MCIgd2lkdGg9IjYzMCIgaGVpZ2h0PSI1NDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTQwNjo0MDA=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDI2IDIyNSIgd2lkdGg9IjQyNiIgaGVpZ2h0PSIyMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTQxMjo0MDA=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDI2IDIyNSIgd2lkdGg9IjQyNiIgaGVpZ2h0PSIyMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTQxODo0MTU=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDI2IDIyNSIgd2lkdGg9IjQyNiIgaGVpZ2h0PSIyMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTQyNDo0MTU=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDI2IDIyNSIgd2lkdGg9IjQyNiIgaGVpZ2h0PSIyMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTQzMDo0MTI=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDI2IDIyNSIgd2lkdGg9IjQyNiIgaGVpZ2h0PSIyMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTQzNjo0MTU=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDI2IDIyNSIgd2lkdGg9IjQyNiIgaGVpZ2h0PSIyMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTQ0NDo0ODY=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDQ3IDQyOCIgd2lkdGg9IjQ0NyIgaGVpZ2h0PSI0MjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTQ0OToxODY=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgODggODgiIHdpZHRoPSI4OCIgaGVpZ2h0PSI4OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48L3N2Zz4=",
+                        "data:image/svg+xml;nitro-empty-id=MTQ1Nzo0ODY=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDQ3IDQyOCIgd2lkdGg9IjQ0NyIgaGVpZ2h0PSI0MjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTQ2MjoxODY=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgODggODgiIHdpZHRoPSI4OCIgaGVpZ2h0PSI4OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48L3N2Zz4=",
+                        "data:image/svg+xml;nitro-empty-id=MTQ3MDo0ODY=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDQ3IDQyOCIgd2lkdGg9IjQ0NyIgaGVpZ2h0PSI0MjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTQ3NToxODY=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgODggODgiIHdpZHRoPSI4OCIgaGVpZ2h0PSI4OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48L3N2Zz4=",
+                        "data:image/svg+xml;nitro-empty-id=MTU3ODo3Njc=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDMwMCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTU4Mjo5MQ==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTU4MzozNzc=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTI1IDEyNSIgd2lkdGg9IjEyNSIgaGVpZ2h0PSIxMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+",
+                        "data:image/svg+xml;nitro-empty-id=MTYzNzoxNDU=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTUwIDMwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjMwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+                    ],
+                    "robots_txt": "https://bellacraftrenovation.com/robots.txt",
+                    "sitemap": "https://bellacraftrenovation.com/sitemap.xml",
+                    "indexed_pages": {
+                        "count": 0,
+                        "links": []
+                    },
+                    "non_indexed_pages": {
+                        "count": 0,
+                        "links": []
+                    },
+                    "http_status": 200,
+                    "noindex_tag": false,
+                    "canonical_urls": [
+                        "https://bellacraftrenovation.com/"
+                    ],
+                    "issues": [
+                        {
+                            "title": "Meta Description Issue",
+                            "description": "Ensure the meta description is between 50 and 160 characters."
+                        },
+                        {
+                            "title": "Images Missing Alt Text",
+                            "description": "Add alt attributes to all images."
+                        }
+                    ]
+                }
+            },
+            "exception": null
+        },
+        "url": "https://bellacraftrenovation.com"
+    }
+}

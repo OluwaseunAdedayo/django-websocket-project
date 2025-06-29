@@ -1,0 +1,583 @@
+{
+    "status": "success",
+    "data": {
+        "id": 2,
+        "url": "https://webbuggs.com",
+        "traffic_data": null,
+        "performance_metrics": {
+            "desktop": {
+                "error": null,
+                "performanceMetrics": {
+                    "First Contentful Paint": "219.41 ms",
+                    "Fully Loaded Time": "128.68 ms",
+                    "Time to Interactive": "428.68 ms",
+                    "Total Blocking Time": "N/A",
+                    "Cumulative Layout Shift": 1.75,
+                    "Largest Contentful Paint": "319.41 ms",
+                    "Onload Time": "128.68 ms",
+                    "Redirect Time": "N/A",
+                    "Server Response Time": "119.41 ms",
+                    "TTFB (Time To First Byte)": "119.41 ms",
+                    "Main Thread Work": "N/A"
+                },
+                "seoMetrics": {
+                    "Mobile Friendly": "Yes",
+                    "Structured Data": "Present",
+                    "Meta Description": "Present",
+                    "Title Tags": "Optimized",
+                    "Alt Text": "Missing",
+                    "Mobile Usability": "Good",
+                    "SEO-Friendly URL": "Yes"
+                },
+                "structuredMetrics": [
+                    {
+                        "priority": "Medium",
+                        "name": "Reduce initial server response time",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "Root document took 0.1s",
+                        "details": "Keep the server response time for the main document short because all other requests depend on it. Consider optimizing server performance or using a CDN."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Avoid chaining critical requests",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "31 chains found",
+                        "details": "Reduce the number of critical resources (scripts and stylesheets) to improve page load time."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Use a Content Delivery Network (CDN)",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "31 resources found",
+                        "details": "Using a CDN can reduce latency by serving content from servers closer to the user."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Avoid large layout shifts",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "15 layout shifts found",
+                        "details": "Ensure elements have defined sizes to prevent unexpected layout shifts during page load."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Use explicit width and height on image elements",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "140 images found",
+                        "details": "Specify width and height attributes on images to reserve space and prevent layout shifts."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Serve static assets with an efficient cache policy",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 20 KB",
+                        "details": "Set proper Cache-Control or Expires headers for static assets to improve load times."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Avoid long main-thread tasks",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "10 long tasks found",
+                        "details": "Optimize JavaScript execution to reduce main-thread blocking time."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Properly size images",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 730KB",
+                        "details": "Ensure images are appropriately sized for their display dimensions."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Reduce unused JavaScript",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 290KB",
+                        "details": "Remove or defer unused JavaScript to improve performance."
+                    },
+                    {
+                        "priority": "Low",
+                        "name": "Reduce unused CSS",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 10KB",
+                        "details": "Remove unused CSS rules to reduce page load time."
+                    }
+                ],
+                "screenshot": null,
+                "score": 90
+            },
+            "mobile": {
+                "error": null,
+                "performanceMetrics": {
+                    "First Contentful Paint": "226.86 ms",
+                    "Fully Loaded Time": "133.35 ms",
+                    "Time to Interactive": "433.35 ms",
+                    "Total Blocking Time": "N/A",
+                    "Cumulative Layout Shift": 1.75,
+                    "Largest Contentful Paint": "326.86 ms",
+                    "Onload Time": "133.35 ms",
+                    "Redirect Time": "N/A",
+                    "Server Response Time": "126.86 ms",
+                    "TTFB (Time To First Byte)": "126.86 ms",
+                    "Main Thread Work": "N/A"
+                },
+                "seoMetrics": {
+                    "Mobile Friendly": "Yes",
+                    "Structured Data": "Present",
+                    "Meta Description": "Present",
+                    "Title Tags": "Optimized",
+                    "Alt Text": "Missing",
+                    "Mobile Usability": "Good",
+                    "SEO-Friendly URL": "Yes"
+                },
+                "structuredMetrics": [
+                    {
+                        "priority": "Medium",
+                        "name": "Reduce initial server response time",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "Root document took 0.1s",
+                        "details": "Keep the server response time for the main document short because all other requests depend on it. Consider optimizing server performance or using a CDN."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Avoid chaining critical requests",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "31 chains found",
+                        "details": "Reduce the number of critical resources (scripts and stylesheets) to improve page load time."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Use a Content Delivery Network (CDN)",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "31 resources found",
+                        "details": "Using a CDN can reduce latency by serving content from servers closer to the user."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Avoid large layout shifts",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "15 layout shifts found",
+                        "details": "Ensure elements have defined sizes to prevent unexpected layout shifts during page load."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Use explicit width and height on image elements",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "140 images found",
+                        "details": "Specify width and height attributes on images to reserve space and prevent layout shifts."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Serve static assets with an efficient cache policy",
+                        "categories": [
+                            "SEO",
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 20 KB",
+                        "details": "Set proper Cache-Control or Expires headers for static assets to improve load times."
+                    },
+                    {
+                        "priority": "Medium",
+                        "name": "Avoid long main-thread tasks",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "10 long tasks found",
+                        "details": "Optimize JavaScript execution to reduce main-thread blocking time."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Properly size images",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 730KB",
+                        "details": "Ensure images are appropriately sized for their display dimensions."
+                    },
+                    {
+                        "priority": "Medium-Low",
+                        "name": "Reduce unused JavaScript",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 290KB",
+                        "details": "Remove or defer unused JavaScript to improve performance."
+                    },
+                    {
+                        "priority": "Low",
+                        "name": "Reduce unused CSS",
+                        "categories": [
+                            "UX"
+                        ],
+                        "stat": "Potential savings of 10KB",
+                        "details": "Remove unused CSS rules to reduce page load time."
+                    }
+                ],
+                "screenshot": null,
+                "score": 90
+            },
+            "countries": [
+                {
+                    "flag": "🇺🇸",
+                    "name": "USA",
+                    "score": 100,
+                    "ttfb": "187.42 ms",
+                    "grade": "A"
+                },
+                {
+                    "flag": "🇨🇦",
+                    "name": "Canada",
+                    "score": 80,
+                    "ttfb": "234.63 ms",
+                    "grade": "B"
+                },
+                {
+                    "flag": "🇫🇷",
+                    "name": "France",
+                    "score": 80,
+                    "ttfb": "288.92 ms",
+                    "grade": "B"
+                }
+            ]
+        },
+        "seo_performance": {
+            "headers": [],
+            "original": {
+                "success": true,
+                "data": {
+                    "url": "https://webbuggs.com",
+                    "seo_score": 70,
+                    "grade": "C",
+                    "passed": 6,
+                    "failed": 2,
+                    "warning": 1,
+                    "title": "Custom Software, Game Development & Digital Marketing | WebBuggs",
+                    "title_length": 64,
+                    "meta_description": "WebBuggs offers expert software development, immersive game design, and strategic digital marketing solutions to elevate your business.",
+                    "meta_description_length": 135,
+                    "social_media_meta": [],
+                    "keywords": [
+                        {
+                            "keyword": "evelopment",
+                            "title": true,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 27
+                        },
+                        {
+                            "keyword": "project",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": true,
+                            "frequency": 20
+                        },
+                        {
+                            "keyword": "team",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 16
+                        },
+                        {
+                            "keyword": "development",
+                            "title": true,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 15
+                        },
+                        {
+                            "keyword": "digital",
+                            "title": true,
+                            "meta_description": true,
+                            "headings": false,
+                            "frequency": 15
+                        },
+                        {
+                            "keyword": "ame evelopment",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 9
+                        },
+                        {
+                            "keyword": "digital marketing",
+                            "title": true,
+                            "meta_description": true,
+                            "headings": false,
+                            "frequency": 7
+                        },
+                        {
+                            "keyword": "alliew ore",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 6
+                        },
+                        {
+                            "keyword": "development services",
+                            "title": false,
+                            "meta_description": false,
+                            "headings": false,
+                            "frequency": 5
+                        },
+                        {
+                            "keyword": "software development",
+                            "title": false,
+                            "meta_description": true,
+                            "headings": true,
+                            "frequency": 4
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "tag": "h1",
+                            "content": "Custom Software Development Company"
+                        },
+                        {
+                            "tag": "h1",
+                            "content": "We Provide: Web and App Development"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Our Achievements"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "0"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "+"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "0"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "+"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "0"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "+"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "0"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "+"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Boost Your Business Growth!"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Proud projects that make us stand out"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Stay Ahead with Our Latest Blogs"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Our Awards Reflect Our Passion for Delivering Outstanding Solutions"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Let’s Hear from Our Clients"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Ready to discuss your project with us?"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "What's next?"
+                        },
+                        {
+                            "tag": "h2",
+                            "content": "Let's work together."
+                        }
+                    ],
+                    "image_alt_missing": [
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668319c7b9a300629bcce9d7_Group%20(1).svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66831a22b8fb9a836c852110_Group%2010233.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed635c53060338887ef_Group%2076024.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed431bbec4cdf41e053_Group%2075967.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5c066f93e4de6def7_online-marketing-advertising_svgrepo.com.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5fd59f1e5332da6ad_Group%2076008.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/6786d06bbf1ecfbfb78c6102_Wordpress.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed431bbec4cdf41e053_Group%2075967.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5c066f93e4de6def7_online-marketing-advertising_svgrepo.com.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5fd59f1e5332da6ad_Group%2076008.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed635c53060338887ef_Group%2076024.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed431bbec4cdf41e053_Group%2075967.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5c066f93e4de6def7_online-marketing-advertising_svgrepo.com.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5fd59f1e5332da6ad_Group%2076008.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f8fed5e8f6ba076ff2cf9b_Group%2076013.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7%2F67090c0eb7068db795b65e50_Home%20Page-poster-00001.jpg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f57f4c3807543210cfbb42_22222.webp",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f57e7c9e7a37103abae558_Untitled-3%20copy.webp",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f57e936b782256dbbee7a8_2.webp",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f57ea2aeb999decd2ec124_3.webp",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/666c661ed451d1e6f69c33e1_6191a88a1c0e39463c2bf022_placeholder-image.svg",
+                        "https://cdn.prod.website-files.com/66f70d4acc700122af1dc4fb/685250a12f3bb2a22d745149_64.jpg",
+                        "https://cdn.prod.website-files.com/66f70d4acc700122af1dc4fb/684a6838bab6b194812687b2_High-Performing%20Website%20(3).jpg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668311ecf8374c451aaf62cd_Group%2010300.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/67a3eab57f7e6fcf804f568e_1.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/67a3ebdbc4ee72c3c550e2e8_2.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/67a3ebdb552a4411f8a47872_3.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/67a3ec4c00f294879a83e2ec_4.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/67a3ec4c04b1efd86aad6702_5.svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f1c0e1d36995d78f4fd5a6_Group%201%402x%201.webp",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/66f1c0e1d36995d78f4fd5a6_Group%201%402x%201.webp",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/668319c7b9a300629bcce9d7_Group%20(1).svg",
+                        "https://cdn.prod.website-files.com/666c65a627fecfa580276cc7/6786e8996a0e921348f1f9da_pakistan-flag-icon.svg"
+                    ],
+                    "robots_txt": "https://webbuggs.com/robots.txt",
+                    "sitemap": "https://webbuggs.com/sitemap.xml",
+                    "indexed_pages": {
+                        "count": 131,
+                        "links": [
+                            "https://www.webbuggs.com",
+                            "https://www.webbuggs.com/style-guide",
+                            "https://www.webbuggs.com/website-design",
+                            "https://www.webbuggs.com/blogs",
+                            "https://www.webbuggs.com/blog-post",
+                            "https://www.webbuggs.com/e-commerce-development",
+                            "https://www.webbuggs.com/marketing-and-sales",
+                            "https://www.webbuggs.com/mobile-app-development",
+                            "https://www.webbuggs.com/game-development",
+                            "https://www.webbuggs.com/portfolio-page-template"
+                        ]
+                    },
+                    "non_indexed_pages": {
+                        "count": 0,
+                        "links": []
+                    },
+                    "http_status": 200,
+                    "noindex_tag": false,
+                    "canonical_urls": [
+                        "https://www.webbuggs.com/"
+                    ],
+                    "issues": [
+                        {
+                            "title": "Title Tag Issue",
+                            "description": "Ensure the title tag is between 10 and 60 characters."
+                        },
+                        {
+                            "title": "Images Missing Alt Text",
+                            "description": "Add alt attributes to all images."
+                        }
+                    ]
+                }
+            },
+            "exception": null
+        },
+        "indexing_performance": {
+            "headers": [],
+            "original": {                
+                "sitemap": {
+                    "exists": true,
+                    "url": "https://webbuggs.com/sitemap.xml"
+                },
+                "robots": {
+                    "exists": true,
+                    "url": "https://webbuggs.com/robots.txt"
+                },
+                "http_status": 200,
+                "noindex_tag": false,
+                "issues": [
+                    {
+                        "title": "Pages not indexed",
+                        "description": "85 pages are not being indexed by Google.",
+                        "severity": "medium"
+                    }
+                ]
+            },
+            "exception": null
+        },
+        "social_data": null,
+        "backlink_data": null,
+        "meta_tags": null,
+        "domain_info": null,
+        "dns_records": null,
+        "ssl_details": null,
+        "whois_data": null,
+        "sitemap_exists": null,
+        "performance_data": null,
+        "sitemap_analysis": null,
+        "crawl_data": null,
+        "search_ranking": null,
+        "local_search_data": null,
+        "blacklist_check": null,
+        "schema_data": null,
+        "keywords": null,
+        "created_at": "2025-06-13T06:18:46.000000Z",
+        "updated_at": "2025-06-20T23:22:25.000000Z"
+    }
+}

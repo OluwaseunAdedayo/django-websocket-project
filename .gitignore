@@ -1,3 +1,12 @@
 /venv
 test.py
 __pycache__
+/clean_text
+/cleaned_text
+/models
+/main.py
+/response
+/result
+/run.log
+/run.py
+/test.py

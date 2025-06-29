@@ -9,7 +9,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "django-insecure-development-key")
 
 # Debug settings
 DEBUG = True  # Keep True during development
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']  # Added IPv6 localhost
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', "*"]  # Added IPv6 localhost
 
 # Application definition
 INSTALLED_APPS = [
